@@ -1,0 +1,686 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InibinSharp.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:InibinSharp.Fakes.ShimInibin">
+            <summary>Shim-Typ von InibinSharp.Inibin</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.#ctor(InibinSharp.Inibin)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.AddValueOf1UInt32M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.UInt32,``0})">
+            <summary>Legt die shim von Inibin.AddValue(UInt32 key, !!0 value) fest.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.Bind(System.IDisposable)">
+            <summary>Bindet die Member der Schnittstelle an den Shim.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.GetValueOf1StringString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.String,``0})">
+            <summary>Legt die shim von Inibin.GetValue(String section, String name) fest.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.GetValueOf1UInt32``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.UInt32,``0})">
+            <summary>Legt die shim von Inibin.GetValue(UInt32 key) fest.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.ParseValuesOf1Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Boolean})">
+            <summary>Legt die shim von Inibin.ParseValues(Boolean isBase10) fest.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.ReadValueOf1Int32``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Int32,``0})">
+            <summary>Legt die shim von Inibin.ReadValue(Int32 offset) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ConstructorByteArray">
+            <summary>Legt die shim von Inibin.Inibin(Byte[] data) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ConstructorRAFFileListEntry">
+            <summary>Legt die shim von Inibin.Inibin(RAFFileListEntry file) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ConstructorStream">
+            <summary>Legt die shim von Inibin.Inibin(Stream stream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ConstructorString">
+            <summary>Legt die shim von Inibin.Inibin(String filePath) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.Dispose">
+            <summary>Legt die shim von Inibin.Dispose() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.KeyExistsStringString">
+            <summary>Legt die shim von Inibin.KeyExists(String section, String name) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ReadSegmentKeys">
+            <summary>Legt die shim von Inibin.ReadSegmentKeys() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.SkipValuesInt32">
+            <summary>Legt die shim von Inibin.SkipValues(Int32 size) fest.</summary>
+        </member>
+        <member name="T:InibinSharp.Fakes.ShimInibin.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.AllInstances.AddValueOf1UInt32M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{InibinSharp.Inibin,System.UInt32,``0})">
+            <summary>Legt die shim von Inibin.AddValue(UInt32 key, !!0 value) fest.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.AllInstances.GetValueOf1StringString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{InibinSharp.Inibin,System.String,System.String,``0})">
+            <summary>Legt die shim von Inibin.GetValue(String section, String name) fest.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.AllInstances.GetValueOf1UInt32``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{InibinSharp.Inibin,System.UInt32,``0})">
+            <summary>Legt die shim von Inibin.GetValue(UInt32 key) fest.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.AllInstances.ParseValuesOf1Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{InibinSharp.Inibin,System.Boolean})">
+            <summary>Legt die shim von Inibin.ParseValues(Boolean isBase10) fest.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.AllInstances.ReadValueOf1Int32``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{InibinSharp.Inibin,System.Int32,``0})">
+            <summary>Legt die shim von Inibin.ReadValue(Int32 offset) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.AllInstances.Dispose">
+            <summary>Legt die shim von Inibin.Dispose() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.AllInstances.KeyExistsStringString">
+            <summary>Legt die shim von Inibin.KeyExists(String section, String name) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.AllInstances.ReadSegmentKeys">
+            <summary>Legt die shim von Inibin.ReadSegmentKeys() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.AllInstances.SkipValuesInt32">
+            <summary>Legt die shim von Inibin.SkipValues(Int32 size) fest.</summary>
+        </member>
+        <member name="T:InibinSharp.Fakes.ShimInibin.ShimKeys">
+            <summary>Shim-Typ von InibinSharp.Inibin+Keys</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.ShimKeys.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.ShimKeys.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimInibin.ShimKeys.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ShimKeys.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ShimKeys.GetHashStringString">
+            <summary>Legt die shim von Keys.GetHash(String section, String name) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ShimKeys.GetKeyUInt32">
+            <summary>Legt die shim von Keys.GetKey(UInt32 hash) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimInibin.ShimKeys.StaticConstructor">
+            <summary>Legt die shim von Keys.Keys() fest.</summary>
+        </member>
+        <member name="T:InibinSharp.Fakes.ShimNumericTypeExtension">
+            <summary>Shim-Typ von InibinSharp.NumericTypeExtension</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimNumericTypeExtension.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimNumericTypeExtension.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.ShimNumericTypeExtension.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimNumericTypeExtension.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimNumericTypeExtension.IsFloatingPointType">
+            <summary>Legt die shim von NumericTypeExtension.IsFloatingPoint(Type dataType) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimNumericTypeExtension.IsIntegerType">
+            <summary>Legt die shim von NumericTypeExtension.IsInteger(Type dataType) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.ShimNumericTypeExtension.IsNumericType">
+            <summary>Legt die shim von NumericTypeExtension.IsNumeric(Type dataType) fest.</summary>
+        </member>
+        <member name="T:InibinSharp.Fakes.StubInibin">
+            <summary>Stub-Typ von InibinSharp.Inibin</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.StubInibin.#ctor(System.String)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.StubInibin.#ctor(System.Byte[])">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.StubInibin.#ctor(InibinSharp.RAF.RAFFileListEntry)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.StubInibin.#ctor(System.IO.Stream)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.Fakes.StubInibin.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubInibin.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.StubInibin.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.StubInibin.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:InibinSharp.Fakes.StubInibin.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFArchive">
+            <summary>Shim-Typ von InibinSharp.RAF.RAFArchive</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFArchive.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFArchive.#ctor(InibinSharp.RAF.RAFArchive)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFArchive.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFArchive.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.ConstructorString">
+            <summary>Legt die shim von RAFArchive.RAFArchive(String rafPath) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.CreateFileDictsRAFArchiveUInt32UInt32">
+            <summary>Legt die shim von RAFArchive.CreateFileDicts(RAFArchive raf, UInt32 offsetFileList, UInt32 offsetStringTable) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.CreateFileEntryStringUInt32UInt32">
+            <summary>Legt die shim von RAFArchive.CreateFileEntry(String rafPath, UInt32 offset, UInt32 fileSize) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.FileDictFullGet">
+            <summary>Legt die shim von RAFArchive.get_FileDictFull() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.FileDictShortGet">
+            <summary>Legt die shim von RAFArchive.get_FileDictShort() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.GetFileEntryString">
+            <summary>Legt die shim von RAFArchive.GetFileEntry(String fullPath) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.IDGet">
+            <summary>Legt die shim von RAFArchive.get_ID() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.InsertFileHelperFuncStringByteArrayFileStreamBoolean">
+            <summary>Legt die shim von RAFArchive.InsertFileHelperFunc(String fileName, Byte[] content, FileStream datFileStream, Boolean createNewIfNoExist) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.InsertFileStringByteArrayBoolean">
+            <summary>Legt die shim von RAFArchive.InsertFile(String fileName, Byte[] content, Boolean createNewIfNoExist) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.InsertFileStringByteArrayFileStreamBoolean">
+            <summary>Legt die shim von RAFArchive.InsertFile(String fileName, Byte[] content, FileStream datFileStream, Boolean createNewIfNoExist) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.RAFFilePathGet">
+            <summary>Legt die shim von RAFArchive.get_RAFFilePath() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.SaveRAFFile">
+            <summary>Legt die shim von RAFArchive.SaveRAFFile() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.SearchFileEntriesStringArrayRAFSearchType">
+            <summary>Legt die shim von RAFArchive.SearchFileEntries(String[] searchPhrases, RAFSearchType searchType) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.SearchFileEntriesStringRAFSearchType">
+            <summary>Legt die shim von RAFArchive.SearchFileEntries(String searchPhrase, RAFSearchType searchType) fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.CreateFileDictsRAFArchiveUInt32UInt32">
+            <summary>Legt die shim von RAFArchive.CreateFileDicts(RAFArchive raf, UInt32 offsetFileList, UInt32 offsetStringTable) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.CreateFileEntryStringUInt32UInt32">
+            <summary>Legt die shim von RAFArchive.CreateFileEntry(String rafPath, UInt32 offset, UInt32 fileSize) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.FileDictFullGet">
+            <summary>Legt die shim von RAFArchive.get_FileDictFull() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.FileDictShortGet">
+            <summary>Legt die shim von RAFArchive.get_FileDictShort() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.GetFileEntryString">
+            <summary>Legt die shim von RAFArchive.GetFileEntry(String fullPath) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.IDGet">
+            <summary>Legt die shim von RAFArchive.get_ID() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.InsertFileHelperFuncStringByteArrayFileStreamBoolean">
+            <summary>Legt die shim von RAFArchive.InsertFileHelperFunc(String fileName, Byte[] content, FileStream datFileStream, Boolean createNewIfNoExist) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.InsertFileStringByteArrayBoolean">
+            <summary>Legt die shim von RAFArchive.InsertFile(String fileName, Byte[] content, Boolean createNewIfNoExist) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.InsertFileStringByteArrayFileStreamBoolean">
+            <summary>Legt die shim von RAFArchive.InsertFile(String fileName, Byte[] content, FileStream datFileStream, Boolean createNewIfNoExist) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.RAFFilePathGet">
+            <summary>Legt die shim von RAFArchive.get_RAFFilePath() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.SaveRAFFile">
+            <summary>Legt die shim von RAFArchive.SaveRAFFile() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.SearchFileEntriesStringArrayRAFSearchType">
+            <summary>Legt die shim von RAFArchive.SearchFileEntries(String[] searchPhrases, RAFSearchType searchType) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchive.AllInstances.SearchFileEntriesStringRAFSearchType">
+            <summary>Legt die shim von RAFArchive.SearchFileEntries(String searchPhrase, RAFSearchType searchType) fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFArchiveID">
+            <summary>Shim-Typ von InibinSharp.RAF.RAFArchiveID</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFArchiveID.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFArchiveID.#ctor(InibinSharp.RAF.RAFArchiveID)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFArchiveID.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFArchiveID.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AGet">
+            <summary>Legt die shim von RAFArchiveID.get_A() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.ASetInt32">
+            <summary>Legt die shim von RAFArchiveID.set_A(Int32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.BGet">
+            <summary>Legt die shim von RAFArchiveID.get_B() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.BSetInt32">
+            <summary>Legt die shim von RAFArchiveID.set_B(Int32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.CGet">
+            <summary>Legt die shim von RAFArchiveID.get_C() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.CSetInt32">
+            <summary>Legt die shim von RAFArchiveID.set_C(Int32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.ConstructorInt32Int32Int32Int32">
+            <summary>Legt die shim von RAFArchiveID.RAFArchiveID(Int32 a, Int32 b, Int32 c, Int32 d) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.CreateIDInt32Int32Int32Int32">
+            <summary>Legt die shim von RAFArchiveID.CreateID(Int32 a, Int32 b, Int32 c, Int32 d) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.CreateIDString">
+            <summary>Legt die shim von RAFArchiveID.CreateID(String inputStr) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.DGet">
+            <summary>Legt die shim von RAFArchiveID.get_D() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.DSetInt32">
+            <summary>Legt die shim von RAFArchiveID.set_D(Int32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.EqualityOpRAFArchiveIDRAFArchiveID">
+            <summary>Legt die shim von RAFArchiveID.op_Equality(RAFArchiveID a, RAFArchiveID b) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.EqualsObject">
+            <summary>Legt die shim von RAFArchiveID.Equals(Object obj) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.EqualsRAFArchiveID">
+            <summary>Legt die shim von RAFArchiveID.Equals(RAFArchiveID other) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.GetHashCode">
+            <summary>Legt die shim von RAFArchiveID.GetHashCode() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.GreaterThanOpRAFArchiveIDRAFArchiveID">
+            <summary>Legt die shim von RAFArchiveID.op_GreaterThan(RAFArchiveID a, RAFArchiveID b) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.InequalityOpRAFArchiveIDRAFArchiveID">
+            <summary>Legt die shim von RAFArchiveID.op_Inequality(RAFArchiveID a, RAFArchiveID b) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.LessThanOpRAFArchiveIDRAFArchiveID">
+            <summary>Legt die shim von RAFArchiveID.op_LessThan(RAFArchiveID a, RAFArchiveID b) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.ToString">
+            <summary>Legt die shim von RAFArchiveID.ToString() fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.AGet">
+            <summary>Legt die shim von RAFArchiveID.get_A() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.ASetInt32">
+            <summary>Legt die shim von RAFArchiveID.set_A(Int32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.BGet">
+            <summary>Legt die shim von RAFArchiveID.get_B() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.BSetInt32">
+            <summary>Legt die shim von RAFArchiveID.set_B(Int32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.CGet">
+            <summary>Legt die shim von RAFArchiveID.get_C() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.CSetInt32">
+            <summary>Legt die shim von RAFArchiveID.set_C(Int32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.DGet">
+            <summary>Legt die shim von RAFArchiveID.get_D() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.DSetInt32">
+            <summary>Legt die shim von RAFArchiveID.set_D(Int32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.EqualsObject">
+            <summary>Legt die shim von RAFArchiveID.Equals(Object obj) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.EqualsRAFArchiveID">
+            <summary>Legt die shim von RAFArchiveID.Equals(RAFArchiveID other) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.GetHashCode01">
+            <summary>Legt die shim von RAFArchiveID.GetHashCode() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFArchiveID.AllInstances.ToString01">
+            <summary>Legt die shim von RAFArchiveID.ToString() fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFFileListEntry">
+            <summary>Shim-Typ von InibinSharp.RAF.RAFFileListEntry</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.#ctor(InibinSharp.RAF.RAFFileListEntry)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.ConstructorRAFArchiveByteArrayRefUInt32UInt32">
+            <summary>Legt die shim von RAFFileListEntry.RAFFileListEntry(RAFArchive raf, Byte[]&amp; directoryFileContent, UInt32 offsetDirectoryEntry, UInt32 offsetStringTable) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.ConstructorRAFArchiveStringUInt32UInt32">
+            <summary>Legt die shim von RAFFileListEntry.RAFFileListEntry(RAFArchive raf, String fileName, UInt32 offsetDatFile, UInt32 fileSize) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.FileNameGet">
+            <summary>Legt die shim von RAFFileListEntry.get_FileName() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.FileNameSetString">
+            <summary>Legt die shim von RAFFileListEntry.set_FileName(String value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.FileOffsetGet">
+            <summary>Legt die shim von RAFFileListEntry.get_FileOffset() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.FileOffsetSetUInt32">
+            <summary>Legt die shim von RAFFileListEntry.set_FileOffset(UInt32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.FileSizeGet">
+            <summary>Legt die shim von RAFFileListEntry.get_FileSize() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.FileSizeSetUInt32">
+            <summary>Legt die shim von RAFFileListEntry.set_FileSize(UInt32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.GetContent">
+            <summary>Legt die shim von RAFFileListEntry.GetContent() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.GetContentFileStream">
+            <summary>Legt die shim von RAFFileListEntry.GetContent(FileStream fStream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.GetContentHelperFuncFileStream">
+            <summary>Legt die shim von RAFFileListEntry.GetContentHelperFunc(FileStream fStream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.GetRawContent">
+            <summary>Legt die shim von RAFFileListEntry.GetRawContent() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.RAFArchiveGet">
+            <summary>Legt die shim von RAFFileListEntry.get_RAFArchive() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.ReplaceContentByteArray">
+            <summary>Legt die shim von RAFFileListEntry.ReplaceContent(Byte[] content) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.ReplaceContentByteArrayFileStream">
+            <summary>Legt die shim von RAFFileListEntry.ReplaceContent(Byte[] content, FileStream datFileStream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.ReplaceContentHelperFuncByteArrayFileStream">
+            <summary>Legt die shim von RAFFileListEntry.ReplaceContentHelperFunc(Byte[] content, FileStream datFileStream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.ShortFileNameGet">
+            <summary>Legt die shim von RAFFileListEntry.get_ShortFileName() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.StringNameHashGet">
+            <summary>Legt die shim von RAFFileListEntry.get_StringNameHash() fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.FileNameGet">
+            <summary>Legt die shim von RAFFileListEntry.get_FileName() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.FileNameSetString">
+            <summary>Legt die shim von RAFFileListEntry.set_FileName(String value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.FileOffsetGet">
+            <summary>Legt die shim von RAFFileListEntry.get_FileOffset() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.FileOffsetSetUInt32">
+            <summary>Legt die shim von RAFFileListEntry.set_FileOffset(UInt32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.FileSizeGet">
+            <summary>Legt die shim von RAFFileListEntry.get_FileSize() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.FileSizeSetUInt32">
+            <summary>Legt die shim von RAFFileListEntry.set_FileSize(UInt32 value) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.GetContent">
+            <summary>Legt die shim von RAFFileListEntry.GetContent() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.GetContentFileStream">
+            <summary>Legt die shim von RAFFileListEntry.GetContent(FileStream fStream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.GetContentHelperFuncFileStream">
+            <summary>Legt die shim von RAFFileListEntry.GetContentHelperFunc(FileStream fStream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.GetRawContent">
+            <summary>Legt die shim von RAFFileListEntry.GetRawContent() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.RAFArchiveGet">
+            <summary>Legt die shim von RAFFileListEntry.get_RAFArchive() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.ReplaceContentByteArray">
+            <summary>Legt die shim von RAFFileListEntry.ReplaceContent(Byte[] content) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.ReplaceContentByteArrayFileStream">
+            <summary>Legt die shim von RAFFileListEntry.ReplaceContent(Byte[] content, FileStream datFileStream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.ReplaceContentHelperFuncByteArrayFileStream">
+            <summary>Legt die shim von RAFFileListEntry.ReplaceContentHelperFunc(Byte[] content, FileStream datFileStream) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.ShortFileNameGet">
+            <summary>Legt die shim von RAFFileListEntry.get_ShortFileName() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFFileListEntry.AllInstances.StringNameHashGet">
+            <summary>Legt die shim von RAFFileListEntry.get_StringNameHash() fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFHashManager">
+            <summary>Shim-Typ von InibinSharp.RAF.RAFHashManager</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFHashManager.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFHashManager.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFHashManager.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFHashManager.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFHashManager.GetHashString">
+            <summary>Legt die shim von RAFHashManager.GetHash(String s) fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFMasterFileList">
+            <summary>Shim-Typ von InibinSharp.RAF.RAFMasterFileList</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.#ctor(InibinSharp.RAF.RAFMasterFileList)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.CombineFileDictsDictionaryOfStringListOfRAFFileListEntryDictionaryOfStringListOfRAFFileListEntry">
+            <summary>Legt die shim von RAFMasterFileList.CombineFileDicts(Dictionary`2&lt;String,List`1&lt;RAFFileListEntry&gt;&gt; dict1, Dictionary`2&lt;String,List`1&lt;RAFFileListEntry&gt;&gt; dict2) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.CombineFileDictsDictionaryOfStringListOfRAFFileListEntryDictionaryOfStringRAFFileListEntry">
+            <summary>Legt die shim von RAFMasterFileList.CombineFileDicts(Dictionary`2&lt;String,List`1&lt;RAFFileListEntry&gt;&gt; dict1, Dictionary`2&lt;String,RAFFileListEntry&gt; dict2) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.ConstructorString">
+            <summary>Legt die shim von RAFMasterFileList.RAFMasterFileList(String fileArchivePath) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.ConstructorStringArray">
+            <summary>Legt die shim von RAFMasterFileList.RAFMasterFileList(String[] rafFilePaths) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.FileDictFullGet">
+            <summary>Legt die shim von RAFMasterFileList.get_FileDictFull() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.FileDictShortGet">
+            <summary>Legt die shim von RAFMasterFileList.get_FileDictShort() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.GetFileEntryString">
+            <summary>Legt die shim von RAFMasterFileList.GetFileEntry(String fullPath) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.GetRAFFilesString">
+            <summary>Legt die shim von RAFMasterFileList.GetRAFFiles(String baseDir) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.LoadString">
+            <summary>Legt die shim von RAFMasterFileList.Load(String assemblyName) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.SearchFileEntriesStringArrayRAFSearchType">
+            <summary>Legt die shim von RAFMasterFileList.SearchFileEntries(String[] searchPhrases, RAFSearchType searchType) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.SearchFileEntriesStringRAFSearchType">
+            <summary>Legt die shim von RAFMasterFileList.SearchFileEntries(String searchPhrase, RAFSearchType searchType) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.StaticConstructor">
+            <summary>Legt die shim von RAFMasterFileList.RAFMasterFileList() fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.AllInstances.FileDictFullGet">
+            <summary>Legt die shim von RAFMasterFileList.get_FileDictFull() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.AllInstances.FileDictShortGet">
+            <summary>Legt die shim von RAFMasterFileList.get_FileDictShort() fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.AllInstances.GetFileEntryString">
+            <summary>Legt die shim von RAFMasterFileList.GetFileEntry(String fullPath) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.AllInstances.GetRAFFilesString">
+            <summary>Legt die shim von RAFMasterFileList.GetRAFFiles(String baseDir) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.AllInstances.SearchFileEntriesStringArrayRAFSearchType">
+            <summary>Legt die shim von RAFMasterFileList.SearchFileEntries(String[] searchPhrases, RAFSearchType searchType) fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFMasterFileList.AllInstances.SearchFileEntriesStringRAFSearchType">
+            <summary>Legt die shim von RAFMasterFileList.SearchFileEntries(String searchPhrase, RAFSearchType searchType) fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFSearchResult">
+            <summary>Shim-Typ von InibinSharp.RAF.RAFSearchResult</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFSearchResult.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFSearchResult.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.ShimRAFSearchResult.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.ShimRAFSearchResult.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.ShimRAFSearchResult.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.StubRAFArchive">
+            <summary>Stub-Typ von InibinSharp.RAF.RAFArchive</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.StubRAFArchive.#ctor(System.String)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.StubRAFArchive.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubRAFArchive.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFArchive.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFArchive.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFArchive.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.StubRAFFileListEntry">
+            <summary>Stub-Typ von InibinSharp.RAF.RAFFileListEntry</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.StubRAFFileListEntry.#ctor(InibinSharp.RAF.RAFArchive,System.Byte[]@,System.UInt32,System.UInt32)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.StubRAFFileListEntry.#ctor(InibinSharp.RAF.RAFArchive,System.String,System.UInt32,System.UInt32)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.StubRAFFileListEntry.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubRAFFileListEntry.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFFileListEntry.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFFileListEntry.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFFileListEntry.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:InibinSharp.RAF.Fakes.StubRAFMasterFileList">
+            <summary>Stub-Typ von InibinSharp.RAF.RAFMasterFileList</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.StubRAFMasterFileList.#ctor(System.String)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.StubRAFMasterFileList.#ctor(System.String[])">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:InibinSharp.RAF.Fakes.StubRAFMasterFileList.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubRAFMasterFileList.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFMasterFileList.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFMasterFileList.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:InibinSharp.RAF.Fakes.StubRAFMasterFileList.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.InibinSharpDelegates">
+            <summary>Enthält benutzerdefinierte Delegaten für die Stubs und Shims von InibinSharp.</summary>
+        </member>
+    </members>
+</doc>
